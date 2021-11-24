@@ -1,0 +1,43 @@
+export const data = [
+    {
+      id: 0,
+      project: "MERN Stack Travel Site",
+      priority: 0,
+      info: "This is a website that was built with React, MongoDB and Express & Node. It gives details of places in Thailand",      photo: require('../images/html-css-javascript-lg.jpg'),
+    },
+    {
+      id: 1,
+      project: "Original site - FFThai",
+      priority: 1,
+      info: "While no longer live, this is a website that was made of React, Gatsby, GraphQL, Strapi CMS and a payment system to use Omise Payment Gateway; plus a portal for consumers and clients to add their own details about their business",
+      photo: require('../images/javascript-fullstack.jpg'),
+    },
+    {
+      id: 2,
+      project: "Wordpress site - Equinox Marketing",
+      priority: 2,
+      info: "A wordpress website for a Hotel Loyalty Program business.",
+      photo: require('../images/react-redux.jpg'),
+    },
+    {
+      id: 3,
+      project: "React Native - InterPass School",
+      priority: 3,
+      info: "A React Native app that extracts data for the exam scores needed for university entrance in Thailand.",
+      photo: require('../images/mern-stack.jpg'),
+    },
+    {
+      id: 4,
+      project: "iOS App - Friends Attack",
+      priority: 2,
+      info:  "An AR Shoot-em up game..",
+      photo: require('../images/react-redux.jpg'),
+    },
+    {
+      id: 5,
+      project: "iOS App - TodayX",
+      priority: 3,
+      info: "An iOS app for retrieving uptodate weather information and adding reminders for the day.",
+      photo: require('../images/mern-stack.jpg'),
+    }
+  ]
